@@ -1,14 +1,14 @@
 # milestones
 Discovering cities, one place at a time
 
-What it does
+What it does:
 MileStones is a scavenger hunt that takes users from one location to the next, based on user feedback, allowing them to discover and 
 explore new places that match their taste. Over the course of a vacation, the user is able to go from destination to destination, earning 
 points and achieving milestones along the way! This intelligent app allows the user to explore a new city and enjoy activities that they 
 love - with no planning necessary.
 
-How we built it
-General Overview: MileStones is built using the Yelp API and Watson Alchemy API, coded up in Python. At a high level, the user inputs their 
+How we built it:
+MileStones is built using the Yelp API and Watson Alchemy API, coded up in Python. At a high level, the user inputs their 
 location, which is sent to the Yelp API to determine nearby attractions. Next, Watson's Alchemy API helps determine which attractions would 
 be most suitable for the user, based on their preferences. The Technical Details: MileStones takes in a pair of geographic coordinates and 
 uses the Yelp API to generate a list of URLs corresponding to businesses at or near that location. For each link generated, we use Watson's 
